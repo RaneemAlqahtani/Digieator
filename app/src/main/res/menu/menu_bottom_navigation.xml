@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btm_nav_calculator"
+        android:icon="@drawable/icon"
+        android:title="Calculator" />
+
+
+    <item
+        android:id="@+id/btm_nav_colors"
+        android:icon="@drawable/icon"
+        android:title="Colors" />
+
+
+
+    <item
+        android:id="@+id/btm_nav_mem"
+        android:icon="@drawable/icon"
+        android:title="History" />
+
+    <item
+        android:id="@+id/btm_nav_ins"
+        android:icon="@drawable/icon"
+        android:checked="true"
+        android:title="Instructions" />
+
+    <item
+        android:id="@+id/btm_nav_ref"
+        android:icon="@drawable/icon"
+        android:checked="true"
+        android:title="References" />
+
+
+</menu>

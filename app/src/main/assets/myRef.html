@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<h2>NOT</h2>
+<p> NOT gate ;
+    If the input is 1 the output equal 0
+    If the input is 0 the output equal 1 
+</p>
+
+<h3>NOT= A`</h3>
+
+<table style="width:100%">
+    <tr>
+        <th>A</th>
+        <th>X</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+    </tr>
+</table>
+
+
+
+<!--and-->
+<h2>AND</h2>
+<p> AND gate :
+    output is 1 if BOTH inputs are 1
+    Otherwise the output equal 0  
+</p>
+
+<h3>AND=AB </h3>
+
+<table style="width:100%">
+    <tr>
+        <th>B</th>
+        <th>A</th>
+        <th>X</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <th>0</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <th>0</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <th>0</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <th>1</th>
+    </tr>
+</table>
+
+
+
+
+<!--nand-->
+<h2>NAND</h2>
+<p> NAND gate 
+    Output is 1 if At LEAST one input is 0
+</p>
+
+<h3>NAND= (AB)`</h3>
+
+<table style="width:100%">
+    <tr>
+        <th>B</th>
+        <th>A</th>
+        <th>X</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <th>0</th>
+    </tr>
+</table>
+
+
+<!--OR-->
+<h2>OR</h2>
+<p> OR gate:
+    Output is 1 if AT LEAST one input is 1 
+</p>
+
+<h3>OR=A+B </h3>
+
+<table style="width:100%">
+    <tr>
+        <th>B</th>
+        <th>A</th>
+        <th>X</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <th>0</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <th>1</th>
+    </tr>
+</table>
+
+
+<!--NOR-->
+<h2>NOR</h2>
+<p> NOR gate :
+    Output is 1 if BOTH input equal 0
+</p>
+
+<h3>NOR=(A+B)`    </h3>
+
+<table style="width:100%">
+    <tr>
+        <th>B</th>
+        <th>A</th>
+        <th>X</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <th>0</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <th>0</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <th>0</th>
+    </tr>
+</table>
+
+
+<!--XOR-->
+<h2>XOR</h2>
+<p> XOR gate:
+    Output is 1 if only one input is 1 
+</p>
+
+<h3>XOR=A ⊕ B</h3>
+
+<table style="width:100%">
+    <tr>
+        <th>B</th>
+        <th>A</th>
+        <th>X</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <th>0</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <th>0</th>
+    </tr>
+</table>
+
+<!--XNOR-->
+<h2>XNOR</h2>
+<p> XNOR gate
+    Output is 1 if all input is same 
+
+</p>
+
+<h3>XNOR=(A ⊕ B)`</h3>
+
+<table style="width:100%">
+    <tr>
+        <th>B</th>
+        <th>A</th>
+        <th>X</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <th>0</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <th>0</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <th>1</th>
+    </tr>
+</table>
+
+
+</body>
+</html>
+
